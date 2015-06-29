@@ -1,4 +1,4 @@
-en * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -392,6 +392,250 @@ body {
 	height:40%;
 	font-size:16px;
 	}
+/************************** page3 end ************************************************/
+
+/************************** page4 start **********************************************/
+.page4_content
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background:url('../img/page4_bk.jpg');
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+    background-positon: 100%, 100%;
+    background-repeat:no-repeat;
+    z-index:0;
+}
+.page4_top {
+    position: relative;
+    border: solid 0px;
+    width: 100%;
+    height: 50%;
+}
+
+.page4_top_left {
+    position: relative;
+    border: solid 0px;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.page4_top_right {
+    position: relative;
+    border: solid 0px;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.page4_down {
+    position: relative;
+    border: solid 0px;
+    width: 100%;
+    height: 50%;
+}
+
+.page4_down_left {
+    position: relative;
+    border: solid 0px;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.page4_down_right {
+    position: relative;
+    border: solid 0px;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.page4_button1 {
+    position: relative;
+
+}
+
+
+.page4_button {
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: 700;
+    font-size: 1em;
+    display: block;
+    padding: 4px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 30px auto;
+    width: 160px;
+    text-align: center;
+
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.page4_button:active {
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+}
+
+
+ol{
+    position: relative;
+	top: 30%;
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    width: 70%;
+    left: 20%;
+}
+
+ol ol{
+    margin: 0 0 0 2em;
+}
+
+.rounded-list .page4_list{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    -moz-border-radius: .3em;
+    -webkit-border-radius: .3em;
+    border-radius: .3em;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.rounded-list .page4_list:hover{
+    background: #eee;
+}
+
+.rounded-list .page4_list:hover:before{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.rounded-list .page4_list:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #87ceeb;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    -moz-border-radius: 2em;
+    -webkit-border-radius: 2em;
+    border-radius: 2em;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.page4_list_content {
+	color: rgba(255,255,255,1);
+}
+.page4_down_right_circle {
+	position: absolute;
+	left: 10%;
+	top: 20%;
+	width: 75%;
+	height: 45%;
+	background-color: rgba(0,0,0,0);
+	border: 3px #a72525 solid;
+	-webkit-border-radius: 50%;
+}
+
+.page4_down_right_title {
+	position: absolute;
+	top:5%;
+	left:25%;
+	padding:5px;
+	width:50%;
+	height:4%;
+	border: 0px solid #000000;
+	background-color: snow;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.page4_down_right_reason {
+	position: absolute;
+	padding:10px;
+	width:20%;
+	height:4%;
+	border: 0px solid #000000;/*
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;*/
+	background-color: #ff9080;
+}
+
+.page4_down_right_reason1 {
+	left: 35%;
+	top: 17%;
+}
+
+.page4_down_right_reason2 {
+	left: 0%;
+	top: 35%;
+}
+
+.page4_down_right_reason3 {
+	left: 70%;
+	top: 35%;
+}
+
+.page4_down_right_reason4 {
+	left: 15%;
+	top: 55%;
+}
+
+.page4_down_right_reason5 {
+	left: 55%;
+	top: 55%;
+}
+/************************** page4 end   **********************************************/
 
 /************************** page5 start add by wk 2015-05031 *************************/
 .page5_up {

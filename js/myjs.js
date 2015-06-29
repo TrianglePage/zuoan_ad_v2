@@ -16,6 +16,7 @@ var mySwiper = new Swiper ('.swiper-container', {
         swiperAnimate(swiper);
         building_animate(swiper.activeIndex);
         page2_white_bk_animation(swiper.activeIndex);
+        page4_draw_chart(swiper.activeIndex);
     }
 })
 
@@ -92,4 +93,65 @@ function page2_white_bk_animation(index)
                 "-o-transition":"left 0s linear 0s"});
         }, 1000);
     }
+}
+
+function page4_draw_chart(index)
+{
+    if(index == 3)
+    {
+        drawChart(4);
+    }
+    else
+    {
+        var i;
+        var cav = document.getElementById("page4_top_left");
+        var children = cav.childNodes;
+        for(i=0;i<children.length;i++){
+            cav.removeChild(children[i]);
+        }
+    }
+}
+
+function drawChart(x) {
+    var ctype;
+    switch(x)
+    {
+        case 1:
+            ctype="column";
+            break;
+        case 2:
+            ctype="spline";
+            break;
+        case 3:
+            ctype="doughnut";
+            break;
+        case 4:
+            ctype="pie";
+            break;
+    }
+
+    var chart = new CanvasJS.Chart("page4_top_left", {
+        theme: "theme2",//theme1
+        backgroundColor: "rgba(34,34,34,0)",
+        title:{
+            text: "Ability"
+        },
+        animationEnabled: true,   // change to true
+        data: [
+            {
+                // Change type to "bar", "splineArea", "area", "spline", "pie",etc.
+                type: ctype,
+                //color: "rgba(2,34,21,.5)",
+                dataPoints: [
+                    { color:"rgba(28,34,21,1)", label: "attack",  y: 10  },
+                    { color:"rgba(1,40,120,1)", label: "defence", y: 15},
+                    { color:"rgba(21,3,77,1)", label: "speed", y: 25  },
+                    { color:"rgba(200,88,81,1)", label: "power",  y: 30  },
+                    { color:"rgba(5,123,164,1)", label: "magic",  y: 28  }
+                ]
+            }
+        ]
+    });
+    chart.render();
+
 }
