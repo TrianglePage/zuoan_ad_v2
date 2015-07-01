@@ -638,6 +638,21 @@ ol ol{
 /************************** page4 end   **********************************************/
 
 /************************** page5 start add by wk 2015-05031 *************************/
+.page5_content
+{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+	background:url('../img/page5_bk.jpg');
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	-moz-background-size:100% 100%;
+	background-size:100% 100%;
+	background-positon: 100%, 100%;
+	background-repeat:no-repeat;
+	z-index:0;
+}
 .page5_up {
 	position: relative;
 	border: solid 0px;
@@ -649,8 +664,8 @@ ol ol{
 	border: solid 0px red;
 	width: 40%;
 	height:50%;
-	background-image: url(../src/img/page_2_logo.png);
-	background-size:100% 100%;
+	/*background-image: url(../src/img/page_2_logo.png);
+	background-size:100% 100%;*/
 }
 .page5_up_2 {
 	position: relative;
@@ -658,8 +673,8 @@ ol ol{
 	left: 60%;
 	width: 40%;
 	height:50%;
-	background-image: url(../src/img/web_addr.png);
-	background-size:100% 100%;
+	/*background-image: url(../src/img/web_addr.png);
+	background-size:100% 100%;*/
 }
 
 .page5_mid {
@@ -667,7 +682,7 @@ ol ol{
 	border: solid 0px;
 	width: 100%;
 	height:40%;
-	background-image: url(../src/img/page5_sky.jpg);
+	/*background-image: url(../src/img/page5_sky.jpg);*/
 	background-size:100% 100%;
 }
 /* red balloon */
@@ -705,8 +720,8 @@ ol ol{
 	position: relative;
 	border: solid 0px pink;
 	top: -85%;
-	left: 75%;
-	width: 20%;
+	left: 60%;
+	width: 10%;
 	height: 40%;
 	z-index: 4;
 }
@@ -717,8 +732,8 @@ ol ol{
 	left:60%;
 	width: 40%;
 	height: 35%;
-	background-image: url(../src/img/wechat_no.png);
-	background-size:100% 100%;
+	/*background-image: url(../src/img/wechat_no.png);
+	background-size:100% 100%;*/
 	z-index: 5;
 }
 .page5_down {
@@ -730,9 +745,9 @@ ol ol{
 	border: solid 0px red;
 	left:40%;
 	top: 40%;
-	width: 40%;
+	width: 25%;
 	height: 40%;
-	background-image: url(../src/img/telephone_pic.png);
+	/*background-image: url(../src/img/telephone_pic.png);*/
 	/*opacity: 0.3;*/
 	background-size:20% 40%;
 	background-repeat: no-repeat;
