@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10f3c9f9-145c-4232-b519-bc7a8327eea7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/page5_bk.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mycss.css" afterPath="$PROJECT_DIR$/css/mycss.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
@@ -449,12 +450,12 @@
       <workItem from="1433066383710" duration="438000" />
       <workItem from="1435474109560" duration="8301000" />
       <workItem from="1435589999211" duration="4576000" />
-      <workItem from="1435759992893" duration="4001000" />
+      <workItem from="1435759992893" duration="4357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33428000" />
+    <option name="totallyTimeSpent" value="33784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="217" y="0" width="1135" height="728" extended-state="0" />

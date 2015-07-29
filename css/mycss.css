@@ -27,6 +27,15 @@ body {
     text-align: center;
    /* border: solid 1px;*/
 }
+/*globle*/
+.zuoan_logo {
+	position:absolute;
+	top:	3%;
+	left:	5%;
+	width:	40%;
+	height: 10%;
+	z-index:3;
+}
 
 /************************** page1 start*************************/
 .page1_content{
@@ -52,20 +61,12 @@ body {
 
 .page1_mid {
 	position:relative;
-	top:55%;
-    height:35%;
+	top:	35.5%;
+    height:	37%;
     background-image: url(../src/img/blue_building.jpg);
     background-size:100% 100%;
 	opacity:0.5;
 	filter:alpha(opacity=50);
-/*	background:url('./img/page2_background.jpg');
-	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
-	-moz-background-size:100% 100%;
-	background-size:100% 100%;
-	background-positon: 100%, 100%;
-	background-repeat:no-repeat;
-	*/
-
 }
 
 .page1_down {
@@ -78,10 +79,9 @@ body {
     position:relative;
     top: 5%;
     left: 0px;
-
 }
 
-.page1_text {
+.page1_publicity {
     position: absolute;
     color:#9090ff;
 	background:rgba(255,255,255,0.4);
@@ -89,44 +89,24 @@ body {
 	-moz-border-radius:10px; /* 老的 Firefox */
 }
 
-.text1{
-    top:15%;
-    left:10%;
-    font:italic 20px Helvetica,Arial,sans-serif;
+.publicity_1{
+    top:	20%;
+    left:	10%;
+	width:	50%;
+	height:	5%;
+	color:#ff9080;
+    font:italic 60px Helvetica,Arial,sans-serif;
 	clear:both;
 }
 
-.text2{
-    top:30%;
-    left:15%;
-    font:16px Helvetica,Arial,sans-serif;
-}
-
-.text3{
-    top:40%;
-    left:30%;
-    font:italic 30px Helvetica,Arial,sans-serif;
-}
-
-.text4{
-    top:30%;
-    left:60%;
-    font:italic 20px Helvetica,Arial,sans-serif;
-}
-
-.text5{
-    color:#ff9080;
-    top:62%;
-    left:5%;
-    font:italic 20px Helvetica,Arial,sans-serif;
-}
-
-.text6{
-    color:#ffff90;
-    top:75%;
-    left:35%;
-    font-family:Helvetica,Arial,sans-serif;
-    font-size: 28px;
+.publicity_2{
+    top:	30%;
+    left:	40%;
+	width:	50%;
+	height:	5%;
+	color:#ff9080;
+    font:italic 60px Helvetica,Arial,sans-serif;
+	clear:both;
 }
 /************************** page1 end  *************************/
 
@@ -139,13 +119,12 @@ body {
 	float: left;
 }
 
-
 .page2_content
 {
 	position:relative;
-	top:0px;
-	left:0px;
-	width: 100%;
+	top:	0px;
+	left:	0px;
+	width:	100%;
 	height: 100%;
 	background:url('../img/page2_background.jpg');
 	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
@@ -156,17 +135,7 @@ body {
 	z-index:1;
     overflow: hidden;
 }
-
-.zuoan_logo
-{
-	width: 20%;
-	height: 6%;
-	position:relative;
-	top:5%;
-	left:-30%;
-	z-index:3;
-}
-
+/* not use */
 .page2_white_bk
 {
     position: absolute;
@@ -178,7 +147,7 @@ body {
     transform:rotate(7deg);
 	z-index:2;
 }
-
+/* not use */
 .page2_white_flash
 {
     position: absolute;
@@ -191,331 +160,153 @@ body {
     z-index:3;
 }
 
-.page2_title
-{
-	font-size:20px;
-	font-family: "Open Sans",Helvetica,Arial,sans-serif;
-	width: 60%;
-	height: 10%;
-	position:absolute;
-	top:10%;
-	left:35%;
-	z-index:3;
-}
-
 .page2_img1
 {
-	width: 60%;
-	height: 40%;
+	width:	40%;
+	height: 20%;
+	top:	55%;
+	left:	5%;
 	position:absolute;
-	top:20%;
-	left:5%;
 	z-index:1;
 }
 
 .page2_img2
 {
-	width: 55%;
-	height: 26%;
+	width:	40%;
+	height: 20%;
+	top:	55%;
+	left:	55%;
 	position:absolute;
-	top:65%;
-	left:40%;
 	z-index:1;
 }
-
-
-
 .page2_list
 {
-	font-size:18px;
+	font-size:60px;
 	font-family: "Open Sans",Helvetica,Arial,sans-serif;
-	width: 25%;
-	height: 10%;
-	z-index:3;
 	border-radius:5px;
 	-moz-border-radius:5px; /* 老的 Firefox */
+	z-index:3;
 }
+
 #page2_list_1
 {
 	position:absolute;
-	font-size:16px;
-	top:25%;
-	left:35%;
-	width: 55%;
-	height: 4%;
-	color:white;
-	background-color:#202020;
+	font-size:60px;
+	top:	20%;
+	left:	5%;
+	width:	30%;
+	height: 30%;
+	color:	white;
+	background-color:#00008B;
 
 }
 #page2_list_2
 {
 	position:absolute;
-	font-size:16px;
-	top:40%;
-	left:32%;
-	width: 55%;
-	height: 4%;
-	color:white;
-	background-color:#202080;
+	font-size:60px;
+	top:	20%;
+	left:	35%;
+	width:	30%;
+	height: 30%;
+	color:black;
+	background-color:#FFFFFF;
 }
 #page2_list_3
 {
 	position:absolute;
-	font-size:16px;
-	top:55%;
-	left:29%;
-	width: 55%;
-	height: 4%;
+	font-size:60px;
+	top:	20%;
+	left:	65%;
+	width:	30%;
+	height: 30%;
 	color:white;
-	background-color:#202020;
+	background-color:#FF0000;
 }
 
 #page2_list_4
 {
 	position:absolute;
-	font-size:16px;
-	top:70%;
-	left:27%;
-	width: 55%;
-	height: 4%;
-	color:white;
-	background-color:#202080;
+	font-size:60px;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	top:	80%;
+	left:	5%;
+	width:	40%;
+	height: 5%;
+	color:	black;
 }
 #page2_list_5
 {
 	position:absolute;
-	font-size:16px;
-	top:85%;
-	left:25%;
-	width: 55%;
-	height: 4%;
-	color:white;
-	background-color:#202020;
+	font-size:60px;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	top:	80%;
+	left:	55%;
+	width:	40%;
+	height: 5%;
+	color:	black;
 }
-
 /******************page2 end*************************/
 
 
 /******************page3 start***********************/
-.page3_content
-{
+.page3_content {
 	position:absolute;
-	top:0px;
-	left:0px;
-	width: 100%;
+	top:	0px;
+	left:	0px;
+	width:	100%;
 	height: 100%;
-	background:url('../img/page3_background.jpg');
+	background:	url('../img/page3_background.jpg');
 	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
 	-moz-background-size:100% 100%;
-	background-size:100% 100%;
+	background-size:	100% 100%;
 	background-positon: 100%, 100%;
-	background-repeat:no-repeat;
+	background-repeat:	no-repeat;
 	z-index:1;
 }
 
-.page3_middle
-{
-	position:relative;
-	top:5%;
-	left:0px;
-	width:100%;
-	height:70%;
-	background:rgba(16, 16, 150, 0.6);
-}
-.page3_point
-{
-	position:relative;
-	margin: 10% 20% 10% 10%;
-	top:15%;
-	left:0%;
-	width:40%;
-	height:10%;
-	border:4px solid #a1a1a1;
-	padding:10px 40px;
-	background:#ffffff;
-	width:65%;
-	border-radius:25px;
-	-moz-border-radius:25px; /* 老的 Firefox */
-	opacity:1;
-	filter:alpha(opacity=100);
-}
-.page3_title
-{
-	font-size:20px;
+.page3_title {
+	font-size:	60px;
 	font-family: "Open Sans",Helvetica,Arial,sans-serif;
-	width: 40%;
+	width:	40%;
 	height: 10%;
+	top:	15%;
+	left:	30%;
 	position:absolute;
-	top:10%;
-	left:30%;
+	color:	red;
 	z-index:1;
 }
 
-.page3_animated
-	{
+.page3_middle {
 	position:relative;
-	margin: 10% 20% 10% 10%;
-	top:15%;
-	left:0%;
-	width:7.5%;
-	height:7.5%;
-	border:4px solid #a1a1a1;
-	padding:10px 10px;
-	background:#ffffff;
-	border-radius:25px;
-	-moz-border-radius:25px; /* 老的 Firefox */
-	-webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
-	-webkit-border-radius:5px;
-	-o-transition-property:width,height,-o-transform,background,font-size,opacity;
-	-o-transition-duration:1s,1s,1s,1s,1s,1s;
-	-moz-transition-property:width,height,-o-transform,background,font-size,opacity;
-	-moz-transition-duration:1s,1s,1s,1s,1s,1s;
-	transition-property:width,height,transform,background,font-size,opacity;
-	transition-duration:1s,1s,1s,1s,1s,1s;
-	overflow:hidden;
-	}
+	top:	5%;
+	left:	10%;
+	width:	80%;
+	height:	70%;
+	/*background:	rgba(16, 16, 150, 0.6);*/
+}
 
-.page3_animated:hover
-	{
-	font-size:12px;
-	background:#1ec7e6;
-	width:80%;
-	height:40%;
-	font-size:16px;
-	}
-
-.page3_animated:active
-	{
-	font-size:12px;
-	background:#1ec7e6;
-	width:80%;
-	height:40%;
-	font-size:16px;
-	}
-/************************** page3 end ************************************************/
-
-/************************** page4 start **********************************************/
-.page4_content
+ol
 {
-    position:absolute;
-    top:0px;
-    left:0px;
-    width: 100%;
-    height: 100%;
-    background:url('../img/page4_bk.jpg');
-    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
-    -moz-background-size:100% 100%;
-    background-size:100% 100%;
-    background-positon: 100%, 100%;
-    background-repeat:no-repeat;
-    z-index:0;
-}
-.page4_top {
     position: relative;
-    border: solid 0px;
-    width: 100%;
-    height: 50%;
-}
-
-.page4_top_left {
-    position: relative;
-    border: solid 0px;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-.page4_top_right {
-    position: relative;
-    border: solid 0px;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-.page4_down {
-    position: relative;
-    border: solid 0px;
-    width: 100%;
-    height: 50%;
-}
-
-.page4_down_left {
-    position: relative;
-    border: solid 0px;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-.page4_down_right {
-    position: relative;
-    border: solid 0px;
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-.page4_button1 {
-    position: relative;
-
-}
-
-
-.page4_button {
-    position: relative;
-    color: rgba(255,255,255,1);
-    text-decoration: none;
-    background-color: rgba(219,87,5,1);
-    font-family: 'Yanone Kaffeesatz';
-    font-weight: 700;
-    font-size: 1em;
-    display: block;
-    padding: 4px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
-    margin: 30px auto;
-    width: 160px;
-    text-align: center;
-
-    -webkit-transition: all .1s ease;
-    -moz-transition: all .1s ease;
-    -ms-transition: all .1s ease;
-    -o-transition: all .1s ease;
-    transition: all .1s ease;
-}
-
-.page4_button:active {
-    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
-    position: relative;
-    top: 6px;
-}
-
-
-ol{
-    position: relative;
-	top: 30%;
+	top:	20%;
+    width:	70%;
+    left:	20%;
     counter-reset: li;
-    list-style: none;
+    list-style:	none;
     *list-style: decimal;
-    font: 15px 'trebuchet MS', 'lucida sans';
+    font: 60px 'trebuchet MS', 'lucida sans';
     padding: 0;
     margin-bottom: 4em;
     text-shadow: 0 1px 0 rgba(255,255,255,.5);
-    width: 70%;
-    left: 20%;
 }
 
-ol ol{
+ol ol
+{
     margin: 0 0 0 2em;
 }
 
-.rounded-list .page4_list{
+.rounded-list .page3_list
+{
     position: relative;
     display: block;
     padding: .4em .4em .4em 2em;
@@ -534,11 +325,13 @@ ol ol{
     transition: all .3s ease-out;
 }
 
-.rounded-list .page4_list:hover{
+.rounded-list .page3_list:hover
+{
     background: #eee;
 }
 
-.rounded-list .page4_list:hover:before{
+.rounded-list .page3_list:hover:before
+{
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -547,7 +340,8 @@ ol ol{
     transform: rotate(360deg);
 }
 
-.rounded-list .page4_list:before{
+.rounded-list .page3_list:before
+{
     content: counter(li);
     counter-increment: li;
     position: absolute;
@@ -570,74 +364,88 @@ ol ol{
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
 }
+/************************** page3 end ************************************************/
 
-.page4_list_content {
-	color: rgba(255,255,255,1);
-}
-.page4_down_right_circle {
-	position: absolute;
-	left: 10%;
-	top: 20%;
-	width: 75%;
-	height: 45%;
-	background-color: rgba(0,0,0,0);
-	border: 3px #a72525 solid;
-	-webkit-border-radius: 50%;
-}
-
-.page4_down_right_title {
-	position: absolute;
-	top:5%;
-	left:25%;
-	padding:5px;
-	width:50%;
-	height:4%;
-	border: 0px solid #000000;
-	background-color: snow;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+/************************** page4 start **********************************************/
+.page4_content {
+    position:absolute;
+    top:	0px;
+    left:	0px;
+    width:	100%;
+    height: 100%;
+    background:url('../img/page4_bk.jpg');
+    filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:	100% 100%;
+    background-positon: 100%, 100%;
+    background-repeat:	no-repeat;
+    z-index:0;
 }
 
-.page4_down_right_reason {
-	position: absolute;
-	padding:10px;
-	width:20%;
-	height:4%;
-	border: 0px solid #000000;/*
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;*/
-	background-color: #ff9080;
+.page4_top {
+    position: relative;
+    border: solid 0px;
+    top:	15%;
+	width:	100%;
+    height: 100%;
+    float: left;
+    z-index:1;
 }
 
-.page4_down_right_reason1 {
-	left: 35%;
-	top: 17%;
+.page4_down
+{
+    position: relative;
+    border: solid 0px;
+    width:	100%;
+    height: 100%;
+    float: left;
+    z-index:2;
 }
 
-.page4_down_right_reason2 {
-	left: 0%;
-	top: 35%;
+.page4_button
+{
+    position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-family: 'Yanone Kaffeesatz';
+    font-weight: normal;/*700;*/
+    font-size: 100sem;
+    display: block;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 30px auto;
+    padding: 4px;
+    width: 320px;/*160px*/
+    text-align: center;
+
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
 }
 
-.page4_down_right_reason3 {
-	left: 70%;
-	top: 35%;
+.page4_button:active
+{
+    -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
 }
 
-.page4_down_right_reason4 {
-	left: 15%;
-	top: 55%;
-}
-
-.page4_down_right_reason5 {
-	left: 55%;
-	top: 55%;
+.page4_button1
+{
+    position: relative;
 }
 /************************** page4 end   **********************************************/
 
-/************************** page5 start add by wk 2015-05031 *************************/
+/************************** page5 start **********************************************/
 .page5_content
 {
 	position:absolute;
@@ -653,13 +461,17 @@ ol ol{
 	background-repeat:no-repeat;
 	z-index:0;
 }
-.page5_up {
+
+.page5_up
+{
 	position: relative;
 	border: solid 0px;
 	width: 100%;
 	height:30%;
 }
-.page5_up_1 {
+
+.page5_up_1
+{
 	position: relative;
 	border: solid 0px red;
 	width: 40%;
@@ -667,7 +479,9 @@ ol ol{
 	/*background-image: url(../src/img/page_2_logo.png);
 	background-size:100% 100%;*/
 }
-.page5_up_2 {
+
+.page5_up_2
+{
 	position: relative;
 	border: solid 0px green;
 	left: 60%;
@@ -677,55 +491,63 @@ ol ol{
 	background-size:100% 100%;*/
 }
 
-.page5_mid {
+.page5_mid
+{
 	position: relative;
 	border: solid 0px;
 	width: 100%;
 	height:40%;
+	left:	0%;
 	/*background-image: url(../src/img/page5_sky.jpg);*/
 	background-size:100% 100%;
 }
+
 /* red balloon */
-.page5_mid_1 {
-	position: relative;
-	border: solid 0px red;
-	top: -30%;
-	left:0%;
-	width: 10%;
-	height: 15%;
+.red_balloon
+{
+	position: absolute;
+	top:	15%;
+	left:	0%;
+	width:	30%;
+	height: 30%;
 	z-index: 1;
 }
+
 /* white balloon */
-.page5_mid_2 {
-	position: relative;
-	border: solid 0px green;
-	top: -45%;
-	left: 15%;
-	width: 10%;
-	height: 15%;
+.white_balloon
+{
+	position: absolute;
+	top:	10%;
+	left:	15%;
+	width:	30%;
+	height: 30%;
 	z-index: 2;
 }
+
 /* blue balloon */
-.page5_mid_3 {
-	position: relative;
-	border: solid 0px gold;
-	top: -50%;
-	left: 30%;
-	width: 10%;
-	height: 15%;
+.blue_balloon
+{
+	position: absolute;
+	top:	20%;
+	left:	25%;
+	width:	30%;
+	height: 30%;
 	z-index: 1;
 }
+
 /* tower */
-.page5_mid_4 {
-	position: relative;
-	border: solid 0px pink;
-	top: -85%;
-	left: 60%;
-	width: 10%;
-	height: 40%;
-	z-index: 4;
+.page5_tower
+{
+	position: absolute;
+	top:	35%;
+	left:	50%;
+	width:	50%;
+	height: 80%;
+	z-index: 0;
 }
-.page5_mid_5 {
+
+.page5_mid_5
+{
 	position: relative;
 	border: solid 0px palevioletred;
 	top: 0%;
@@ -736,11 +558,15 @@ ol ol{
 	background-size:100% 100%;*/
 	z-index: 5;
 }
-.page5_down {
+
+.page5_down
+{
 	border: solid 0px lightsalmon;
 	height: 30%;
 }
-.page5_down_1 {
+
+.page5_down_1
+{
 	position: relative;
 	border: solid 0px red;
 	left:40%;
